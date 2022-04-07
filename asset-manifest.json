@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https//mafernandezgo.github.io/e-commerce/static/css/main.e01a14d7.css",
+    "main.js": "/https//mafernandezgo.github.io/e-commerce/static/js/main.58301656.js",
+    "static/js/787.dcc73137.chunk.js": "/https//mafernandezgo.github.io/e-commerce/static/js/787.dcc73137.chunk.js",
+    "index.html": "/https//mafernandezgo.github.io/e-commerce/index.html",
+    "main.e01a14d7.css.map": "/https//mafernandezgo.github.io/e-commerce/static/css/main.e01a14d7.css.map",
+    "main.58301656.js.map": "/https//mafernandezgo.github.io/e-commerce/static/js/main.58301656.js.map",
+    "787.dcc73137.chunk.js.map": "/https//mafernandezgo.github.io/e-commerce/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e01a14d7.css",
+    "static/js/main.58301656.js"
+  ]
+}
