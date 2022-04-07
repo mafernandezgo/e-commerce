@@ -1,0 +1,56 @@
+
+.infoAside h3{
+    text-transform: uppercase;
+    color: var(--Orange);
+    font-weight: 700;
+    padding: 1rem 0 0;
+}
+
+.infoAside h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem 0 0;
+    text-align: start;
+    line-height: 1;
+}
+
+.infoAside > p:nth-child(3){
+    text-align: start;
+    padding: 1rem 0 0;
+}
+
+.infoAside > div:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding: 1rem 0 0
+}
+
+.finalPrice{
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 0;
+}
+
+
+.discountTag{
+    background-color: var(--Paleorange) ;
+    color: var(--Orange);
+    padding: 8px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+    height: auto;
+}
+
+.originalPrice{
+    color: var(--Darkgrayishblue);
+    text-decoration: line-through;
+    font-weight: 400;
+    padding: 0;
+}
+
+.btnsWrapper{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}

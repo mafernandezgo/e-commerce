@@ -1,0 +1,30 @@
+.imagesAside {
+  /* position: absolute;
+    top:80px; */
+  /* width: 40%; */
+  flex-basis: 35%;
+}
+.imagesAside .imagesAsideWrapper {
+  align-self: center;
+}
+.imagesAside img {
+  border-radius: 20px;
+}
+.imagesThumbnail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+.imagesThumbnail img {
+  width: 22%;
+}
+.imagesThumbnail img:hover {
+  filter: opacity(70%);
+}
+.imagesThumbnail img.active {
+  filter: opacity(70%);
+  border: 3px solid var(--Orange);
+  transition: all 0.3s ease-in-out;
+}

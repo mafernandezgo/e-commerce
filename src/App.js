@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import Header from "./components/organisms/Header"
+import Main from "./components/pages/Main"
+import { useState } from "react"
 
 function App() {
+  const [cartList, setCartList] = useState([])
+  const [counter, setCounter] = useState(1)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header cartList={cartList} setCartList={setCartList} />
+      <Main
+        counter={counter}
+        setCounter={setCounter}
+        setCartList={setCartList}
+      />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
